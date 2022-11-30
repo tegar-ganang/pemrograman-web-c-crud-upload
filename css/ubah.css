@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 body {
-    font-family: 'Roboto', cursive;
-    background-color: #252525;
+    font-family: 'Fredoka', cursive;
+    background-color: #138fb5;
     color: #EDEDED;
 }
 
@@ -11,65 +11,96 @@ h1 {
     color: #EDEDED;
     font-size: 56px;
     font-weight: bold;
-    font-family: "Nerko One", cursive;
+    font-family: "Fredoka", cursive;
     text-align: center;
     margin-top: 50px;
 }
 
-table {
+.tambah_data {
     margin-top: 50px;
     margin-bottom: 50px;
-    position: relative;
     text-align: left;
-    border: 1px solid #EDEDED;
+
+}
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #EDEDED#fff;
     border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(183, 141, 3, 0.5);
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px 25px;
+    font-family: 'Fredoka';
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* 5 */
+.btn-5 {
+    width: 130px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: goldenrod;
+}
+
+.btn-5:hover {
+    color: #f0094a;
+    background: transparent;
+    box-shadow: none;
+}
+
+a:link {
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #EDEDED;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
 }
 
 table tr {
-    border-bottom: 1px solid #EDEDED;
     background-color: #252525;
     color: #EDEDED;
-}
-
-table tr td {
-    padding: 12px 15px;
-    font-weight: 400;
-}
-
-hr {
-    border: 1px solid #EDEDED;
-    width: 50%;
-}
-
-input[type=submit] {
-    background-color: #62529c;
-    border: none;
-    color: #fff;
-    padding: 15px 30px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
     text-align: center;
 }
 
-input[type=button] {
-    background-color: #62529c;
-    border: none;
-    color: #fff;
-    padding: 15px 30px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
+table tr th {
+    color: #EDEDED;
+    font-size: larger;
     text-align: center;
 }
 
-.button_akhir {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
+table tr:hover {
+    background-color:goldenrod;
+    color: #138fb5;
+}
+
+table tr a:hover {
+    color: darkmagenta;
 }

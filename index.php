@@ -24,7 +24,7 @@
         // Load file koneksi.php
         include "koneksi.php";
         // Buat query untuk menampilkan semua data siswa
-        $sql = $pdo->prepare("SELECT * FROM siswa");
+        $sql = $pdo->prepare("SELECT * FROM idsiswa");
         $sql->execute(); // Eksekusi querynya
         while ($data = $sql->fetch()) { // Ambil semua data dari hasil eksekusi $sql
             echo "<tr>";
